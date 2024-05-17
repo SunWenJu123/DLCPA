@@ -1,0 +1,228 @@
+nohup: 忽略输入
+/home/sunwenju/anaconda3/lib/python3.7/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Mapping, defaultdict
+
+=================================================================
+========================== index : 1 ==========================
+=================================================================
+
+Namespace(backbone='None', batch_size=512, class_shuffle=False, classifier='linear', clslr=0.05, dataset='seq-tinyimg', device=device(type='cuda'), featureNet=None, img_dir='img/', learning_rate=None, lr=0.02, model='dlcpa', momentum=0, n_epochs=100, nt=None, print_freq=10, repeat=1, root='./data/', scheduler_step=90, seed=None, sl_weight=10, ssl_leaner='moco', ssl_weight=1, t_c_arr=None, transform='default', validation=False, weight_decay=0)
+================================= repeat 1/1 =================================
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+0 20
+epoch:0, feat_extract_loss:35.19292, classifier_loss:2.95011
+epoch:10, feat_extract_loss:27.06963, classifier_loss:2.64783
+epoch:20, feat_extract_loss:28.90567, classifier_loss:2.17627
+epoch:30, feat_extract_loss:24.05540, classifier_loss:1.87768
+epoch:40, feat_extract_loss:22.77111, classifier_loss:1.64571
+epoch:50, feat_extract_loss:25.33537, classifier_loss:1.71909
+epoch:60, feat_extract_loss:19.68026, classifier_loss:1.18239
+epoch:70, feat_extract_loss:15.20045, classifier_loss:0.92986
+epoch:80, feat_extract_loss:23.97832, classifier_loss:1.67287
+epoch:90, feat_extract_loss:11.94285, classifier_loss:0.53724
+train_time 1254.3878388404846 test_time 0.520132303237915
+Acc for task 0 : [0.0, 70.7]
+Accuracy for 1 task(s): 	 [Class-IL]: 70.7 % 	 [Task-IL]: 70.7 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+20 40
+epoch:0, feat_extract_loss:29.27290, classifier_loss:2.58434
+epoch:10, feat_extract_loss:19.31274, classifier_loss:1.57065
+epoch:20, feat_extract_loss:22.68620, classifier_loss:1.88133
+epoch:30, feat_extract_loss:16.82057, classifier_loss:1.42656
+epoch:40, feat_extract_loss:17.42366, classifier_loss:1.38476
+epoch:50, feat_extract_loss:22.59412, classifier_loss:1.91684
+epoch:60, feat_extract_loss:14.87670, classifier_loss:1.05845
+epoch:70, feat_extract_loss:30.30753, classifier_loss:2.07222
+epoch:80, feat_extract_loss:26.09021, classifier_loss:1.80994
+epoch:90, feat_extract_loss:14.21622, classifier_loss:1.35937
+train_time 1252.4952154159546 test_time 0.9682865142822266
+Acc for task 0 : [0.0, 70.7, 70.6]
+Acc for task 1 : [0.0, 61.0]
+Accuracy for 2 task(s): 	 [Class-IL]: 52.25 % 	 [Task-IL]: 65.8 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+40 60
+epoch:0, feat_extract_loss:24.56047, classifier_loss:2.17821
+epoch:10, feat_extract_loss:24.46402, classifier_loss:1.93970
+epoch:20, feat_extract_loss:19.17576, classifier_loss:1.51523
+epoch:30, feat_extract_loss:33.35614, classifier_loss:2.47014
+epoch:40, feat_extract_loss:9.56748, classifier_loss:0.92256
+epoch:50, feat_extract_loss:17.56472, classifier_loss:1.45585
+epoch:60, feat_extract_loss:19.36698, classifier_loss:1.60252
+epoch:70, feat_extract_loss:20.24649, classifier_loss:1.71439
+epoch:80, feat_extract_loss:16.29195, classifier_loss:1.53203
+epoch:90, feat_extract_loss:10.12154, classifier_loss:0.90599
+train_time 1254.0434176921844 test_time 1.3896677494049072
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999]
+Acc for task 1 : [0.0, 61.0, 64.5]
+Acc for task 2 : [0.0, 66.8]
+Accuracy for 3 task(s): 	 [Class-IL]: 47.4 % 	 [Task-IL]: 67.17 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+60 80
+epoch:0, feat_extract_loss:23.94230, classifier_loss:2.24058
+epoch:10, feat_extract_loss:17.20677, classifier_loss:1.54334
+epoch:20, feat_extract_loss:12.00976, classifier_loss:1.08245
+epoch:30, feat_extract_loss:18.16759, classifier_loss:1.55426
+epoch:40, feat_extract_loss:18.18076, classifier_loss:1.40948
+epoch:50, feat_extract_loss:12.11040, classifier_loss:0.91402
+epoch:60, feat_extract_loss:20.90804, classifier_loss:1.68849
+epoch:70, feat_extract_loss:8.22845, classifier_loss:0.83181
+epoch:80, feat_extract_loss:13.88928, classifier_loss:1.36573
+epoch:90, feat_extract_loss:20.74314, classifier_loss:1.65015
+train_time 1253.8313937187195 test_time 1.843369722366333
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999, 67.9]
+Acc for task 1 : [0.0, 61.0, 64.5, 64.9]
+Acc for task 2 : [0.0, 66.8, 69.19999999999999]
+Acc for task 3 : [0.0, 68.60000000000001]
+Accuracy for 4 task(s): 	 [Class-IL]: 44.6 % 	 [Task-IL]: 67.65 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+80 100
+epoch:0, feat_extract_loss:19.40486, classifier_loss:1.84164
+epoch:10, feat_extract_loss:14.83283, classifier_loss:1.12576
+epoch:20, feat_extract_loss:25.54192, classifier_loss:1.88836
+epoch:30, feat_extract_loss:15.89524, classifier_loss:1.39638
+epoch:40, feat_extract_loss:14.01901, classifier_loss:1.24259
+epoch:50, feat_extract_loss:7.94299, classifier_loss:0.89500
+epoch:60, feat_extract_loss:15.11098, classifier_loss:1.34706
+epoch:70, feat_extract_loss:13.53693, classifier_loss:1.27850
+epoch:80, feat_extract_loss:13.48290, classifier_loss:1.27188
+epoch:90, feat_extract_loss:19.34802, classifier_loss:1.58840
+train_time 1253.8096556663513 test_time 2.280397415161133
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999, 67.9, 66.0]
+Acc for task 1 : [0.0, 61.0, 64.5, 64.9, 64.3]
+Acc for task 2 : [0.0, 66.8, 69.19999999999999, 70.1]
+Acc for task 3 : [0.0, 68.60000000000001, 70.19999999999999]
+Acc for task 4 : [0.0, 67.5]
+Accuracy for 5 task(s): 	 [Class-IL]: 41.2 % 	 [Task-IL]: 67.62 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+100 120
+epoch:0, feat_extract_loss:28.28831, classifier_loss:2.37720
+epoch:10, feat_extract_loss:18.87978, classifier_loss:1.57372
+epoch:20, feat_extract_loss:22.09145, classifier_loss:1.85791
+epoch:30, feat_extract_loss:24.37226, classifier_loss:2.02819
+epoch:40, feat_extract_loss:12.01336, classifier_loss:1.27535
+epoch:50, feat_extract_loss:9.54054, classifier_loss:1.01046
+epoch:60, feat_extract_loss:7.13687, classifier_loss:0.87419
+epoch:70, feat_extract_loss:9.64211, classifier_loss:1.09579
+epoch:80, feat_extract_loss:9.39767, classifier_loss:0.94139
+epoch:90, feat_extract_loss:13.26363, classifier_loss:1.48777
+train_time 1254.1675555706024 test_time 2.7218315601348877
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999, 67.9, 66.0, 64.60000000000001]
+Acc for task 1 : [0.0, 61.0, 64.5, 64.9, 64.3, 63.2]
+Acc for task 2 : [0.0, 66.8, 69.19999999999999, 70.1, 71.1]
+Acc for task 3 : [0.0, 68.60000000000001, 70.19999999999999, 71.5]
+Acc for task 4 : [0.0, 67.5, 70.1]
+Acc for task 5 : [0.0, 61.1]
+Accuracy for 6 task(s): 	 [Class-IL]: 37.82 % 	 [Task-IL]: 66.93 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+120 140
+epoch:0, feat_extract_loss:23.05266, classifier_loss:2.03982
+epoch:10, feat_extract_loss:15.01884, classifier_loss:1.42348
+epoch:20, feat_extract_loss:22.32999, classifier_loss:1.87222
+epoch:30, feat_extract_loss:9.93749, classifier_loss:1.09827
+epoch:40, feat_extract_loss:10.42350, classifier_loss:0.89129
+epoch:50, feat_extract_loss:10.94870, classifier_loss:0.94534
+epoch:60, feat_extract_loss:10.69622, classifier_loss:1.04737
+epoch:70, feat_extract_loss:10.71091, classifier_loss:1.08058
+epoch:80, feat_extract_loss:17.01099, classifier_loss:1.54515
+epoch:90, feat_extract_loss:16.24745, classifier_loss:1.43350
+train_time 1256.6064195632935 test_time 3.2152249813079834
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999, 67.9, 66.0, 64.60000000000001, 64.9]
+Acc for task 1 : [0.0, 61.0, 64.5, 64.9, 64.3, 63.2, 62.5]
+Acc for task 2 : [0.0, 66.8, 69.19999999999999, 70.1, 71.1, 70.8]
+Acc for task 3 : [0.0, 68.60000000000001, 70.19999999999999, 71.5, 72.7]
+Acc for task 4 : [0.0, 67.5, 70.1, 70.89999999999999]
+Acc for task 5 : [0.0, 61.1, 63.0]
+Acc for task 6 : [0.0, 66.7]
+Accuracy for 7 task(s): 	 [Class-IL]: 35.33 % 	 [Task-IL]: 67.36 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+140 160
+epoch:0, feat_extract_loss:21.91733, classifier_loss:2.10514
+epoch:10, feat_extract_loss:14.42422, classifier_loss:1.31957
+epoch:20, feat_extract_loss:10.24344, classifier_loss:1.13664
+epoch:30, feat_extract_loss:13.83112, classifier_loss:1.18641
+epoch:40, feat_extract_loss:20.02006, classifier_loss:1.72805
+epoch:50, feat_extract_loss:32.77065, classifier_loss:2.41708
+epoch:60, feat_extract_loss:9.35853, classifier_loss:1.25062
+epoch:70, feat_extract_loss:18.27668, classifier_loss:1.37650
+epoch:80, feat_extract_loss:8.98689, classifier_loss:1.28473
+epoch:90, feat_extract_loss:20.58775, classifier_loss:1.87563
+train_time 1255.5338213443756 test_time 3.6103641986846924
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999, 67.9, 66.0, 64.60000000000001, 64.9, 63.1]
+Acc for task 1 : [0.0, 61.0, 64.5, 64.9, 64.3, 63.2, 62.5, 60.8]
+Acc for task 2 : [0.0, 66.8, 69.19999999999999, 70.1, 71.1, 70.8, 70.19999999999999]
+Acc for task 3 : [0.0, 68.60000000000001, 70.19999999999999, 71.5, 72.7, 72.8]
+Acc for task 4 : [0.0, 67.5, 70.1, 70.89999999999999, 70.8]
+Acc for task 5 : [0.0, 61.1, 63.0, 64.60000000000001]
+Acc for task 6 : [0.0, 66.7, 69.1]
+Acc for task 7 : [0.0, 62.5]
+Accuracy for 8 task(s): 	 [Class-IL]: 32.78 % 	 [Task-IL]: 66.74 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+160 180
+epoch:0, feat_extract_loss:28.05791, classifier_loss:2.43202
+epoch:10, feat_extract_loss:13.56120, classifier_loss:1.22930
+epoch:20, feat_extract_loss:11.39208, classifier_loss:1.30517
+epoch:30, feat_extract_loss:20.55222, classifier_loss:1.80047
+epoch:40, feat_extract_loss:8.25285, classifier_loss:1.11179
+epoch:50, feat_extract_loss:10.56466, classifier_loss:1.03618
+epoch:60, feat_extract_loss:18.65270, classifier_loss:1.70357
+epoch:70, feat_extract_loss:19.80587, classifier_loss:1.83222
+epoch:80, feat_extract_loss:13.98758, classifier_loss:1.49276
+epoch:90, feat_extract_loss:5.75625, classifier_loss:1.03958
+train_time 1253.632199048996 test_time 4.047790765762329
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999, 67.9, 66.0, 64.60000000000001, 64.9, 63.1, 62.6]
+Acc for task 1 : [0.0, 61.0, 64.5, 64.9, 64.3, 63.2, 62.5, 60.8, 59.699999999999996]
+Acc for task 2 : [0.0, 66.8, 69.19999999999999, 70.1, 71.1, 70.8, 70.19999999999999, 69.5]
+Acc for task 3 : [0.0, 68.60000000000001, 70.19999999999999, 71.5, 72.7, 72.8, 72.3]
+Acc for task 4 : [0.0, 67.5, 70.1, 70.89999999999999, 70.8, 71.1]
+Acc for task 5 : [0.0, 61.1, 63.0, 64.60000000000001, 65.4]
+Acc for task 6 : [0.0, 66.7, 69.1, 69.8]
+Acc for task 7 : [0.0, 62.5, 64.0]
+Acc for task 8 : [0.0, 61.0]
+Accuracy for 9 task(s): 	 [Class-IL]: 30.39 % 	 [Task-IL]: 66.16 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+180 200
+epoch:0, feat_extract_loss:30.78688, classifier_loss:2.52428
+epoch:10, feat_extract_loss:27.94621, classifier_loss:2.26361
+epoch:20, feat_extract_loss:13.66495, classifier_loss:1.22115
+epoch:30, feat_extract_loss:11.06417, classifier_loss:1.07329
+epoch:40, feat_extract_loss:19.48697, classifier_loss:1.53089
+epoch:50, feat_extract_loss:8.31583, classifier_loss:0.75546
+epoch:60, feat_extract_loss:9.61917, classifier_loss:1.22654
+epoch:70, feat_extract_loss:22.01175, classifier_loss:1.81266
+epoch:80, feat_extract_loss:8.31566, classifier_loss:0.86891
+epoch:90, feat_extract_loss:9.90875, classifier_loss:1.00295
+train_time 1256.2139687538147 test_time 4.508798599243164
+Acc for task 0 : [0.0, 70.7, 70.6, 70.19999999999999, 67.9, 66.0, 64.60000000000001, 64.9, 63.1, 62.6, 62.3]
+Acc for task 1 : [0.0, 61.0, 64.5, 64.9, 64.3, 63.2, 62.5, 60.8, 59.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 66.8, 69.19999999999999, 70.1, 71.1, 70.8, 70.19999999999999, 69.5, 68.10000000000001]
+Acc for task 3 : [0.0, 68.60000000000001, 70.19999999999999, 71.5, 72.7, 72.8, 72.3, 72.6]
+Acc for task 4 : [0.0, 67.5, 70.1, 70.89999999999999, 70.8, 71.1, 70.5]
+Acc for task 5 : [0.0, 61.1, 63.0, 64.60000000000001, 65.4, 65.60000000000001]
+Acc for task 6 : [0.0, 66.7, 69.1, 69.8, 69.8]
+Acc for task 7 : [0.0, 62.5, 64.0, 64.60000000000001]
+Acc for task 8 : [0.0, 61.0, 62.3]
+Acc for task 9 : [0.0, 63.800000000000004]
+Accuracy for 10 task(s): 	 [Class-IL]: 28.61 % 	 [Task-IL]: 65.83 %
+Accuracy for 1 task(s): 	 [Class-IL]: 70.7 % 	 [Task-IL]: 70.7 %
+Accuracy for 2 task(s): 	 [Class-IL]: 52.25 % 	 [Task-IL]: 65.8 %
+Accuracy for 3 task(s): 	 [Class-IL]: 47.4 % 	 [Task-IL]: 67.17 %
+Accuracy for 4 task(s): 	 [Class-IL]: 44.6 % 	 [Task-IL]: 67.65 %
+Accuracy for 5 task(s): 	 [Class-IL]: 41.2 % 	 [Task-IL]: 67.62 %
+Accuracy for 6 task(s): 	 [Class-IL]: 37.82 % 	 [Task-IL]: 66.93 %
+Accuracy for 7 task(s): 	 [Class-IL]: 35.33 % 	 [Task-IL]: 67.36 %
+Accuracy for 8 task(s): 	 [Class-IL]: 32.78 % 	 [Task-IL]: 66.74 %
+Accuracy for 9 task(s): 	 [Class-IL]: 30.39 % 	 [Task-IL]: 66.16 %
+Accuracy for 10 task(s): 	 [Class-IL]: 28.61 % 	 [Task-IL]: 65.83 %
+forget_taskil: 2.04 forget_classil: 8.37 bwt_taskil: 0.96 bwt_classil: -1.82
+ACC for all 1 task(s): 	 [Class-IL]: 28.61$\pm$0.0 	 [Task-IL]: 65.83$\pm$0.0
+BWT for all 1 task(s): 	 [Class-IL]: -1.82$\pm$0.0 	 [Task-IL]: 0.96$\pm$0.0
