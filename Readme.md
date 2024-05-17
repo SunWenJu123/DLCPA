@@ -1,7 +1,6 @@
 # Code for DLCPA
 
-> Paper ID: 6691
->
+
 > Paper Title: Towards Plastic and Stable Exemplar-free Incremental Learning: A Dual-learner Framework with Cumulative Parameter Averaging
 
 ![image-20230819095744867](img/Readme/image-20230819095744867.png)
